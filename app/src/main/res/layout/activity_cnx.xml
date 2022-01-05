@@ -34,6 +34,7 @@
             android:textSize="17dp"
             />
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TVEmailCnx"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -53,12 +54,13 @@
             android:textSize="17dp"
             />
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TVMdpCnx"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
     </LinearLayout>
     <Button
-
+        android:id="@+id/BTForgotPassword"
         android:layout_marginHorizontal="80dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
